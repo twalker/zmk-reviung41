@@ -10,3 +10,5 @@ west build -b nice_nano_v2 --pristine -- -DSHIELD=reviung41 -DZMK_CONFIG="/home/
 ## TODO
 - [ ] Adjust WIN layer for pop os shortcuts
 - [ ] Explore injecting strings in combos/layers with zmk
+
+
