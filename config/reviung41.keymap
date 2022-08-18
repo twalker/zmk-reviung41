@@ -103,13 +103,13 @@
                 win_layer {
 // -----------------------------------------------------------------------------------------------------------------------------
 // | RESET    | RGB BRI+ | RGB SAT+ | RGB HUE+ | RGB ANI+ |         |   |         | WIN TL| WIN U | WIN TR  | WIN LG  | ZOOM + |
-// | RGB TOG  | RGB BRI- | RGB SAT- | RGB HUE- | RGB ANI+ |         |   |         | WIN L | WIN D | WIN R   | WIN FUL | PSCRN  |
-// | BT_CLR   | BT 0     | BT 1     | UG COLOR |          |         |   |         | WIN BL|       | WIN BR  | WIN SM  | ZOOM - |
+// |          | MUTE     | PREV     | PLY/PAU  | NEXT     |         |   |         | WIN L | WIN D | WIN R   | WIN FUL | PSCRN  |
+// | RGB TOG  | RGB BRI- | RGB SAT- | RGB HUE- | RGB ANI+ |         |   |         | WIN BL|       | WIN BR  | WIN SM  | ZOOM - |
 //                                              |     |     |     |     |     |
                         bindings = <
    &reset &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none            &none &kp LC(LA(U)) &kp LC(LA(UP)) &kp LC(LA(I)) &kp LC(LA(EQUAL)) &kp LC(EQUAL)
-   &rgb_ug RGB_TOG &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none   &none &kp LC(LA(LEFT)) &kp LC(LA(DOWN)) &kp LC(LA(RIGHT)) &kp LC(LA(RET)) &kp LG(LS(N5))
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &rgb_ug RGB_COLOR_HSB(128,100,100) &none &none     &none &kp LC(LA(J)) &none &kp LC(LA(K)) &kp LC(LA(MINUS)) &kp LC(MINUS)
+   &none &kp C_MUTE &kp C_PREV &kp C_PP &kp C_NEXT &none         &none &kp LC(LA(LEFT)) &kp LC(LA(DOWN)) &kp LC(LA(RIGHT)) &kp LC(LA(RET)) &kp LG(LS(N5))
+   &rgb_ug RGB_TOG &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none   &none &kp LC(LA(J)) &none &kp LC(LA(K)) &kp LC(LA(MINUS)) &kp LC(MINUS)
                                      &trans      &trans       &trans        &trans      &trans
                         >;
                 };
