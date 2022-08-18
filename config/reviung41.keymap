@@ -108,7 +108,7 @@
 //                                              |     |     |     |     |     |
                         bindings = <
    &reset &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none            &none &kp LC(LA(U)) &kp LC(LA(UP)) &kp LC(LA(I)) &kp LC(LA(EQUAL)) &kp LC(EQUAL)
-   &rgb_ug RGB_TOG &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none   &none &kp LC(LA(LEFT)) &kp LC(LA(DOWN)) &kp LC(LA(RIGHT)) &kp LC(LA(RET)) &kp LG(LS(N5))
+   &rgb_ug RGB_TOG &kp K_PREV  &kp K_PP &kp K_NEXT &rgb_ug RGB_EFR &none   &none &kp LC(LA(LEFT)) &kp LC(LA(DOWN)) &kp LC(LA(RIGHT)) &kp LC(LA(RET)) &kp LG(LS(N5))
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &rgb_ug RGB_COLOR_HSB(128,100,100) &none &none     &none &kp LC(LA(J)) &none &kp LC(LA(K)) &kp LC(LA(MINUS)) &kp LC(MINUS)
                                      &trans      &trans       &trans        &trans      &trans
                         >;
